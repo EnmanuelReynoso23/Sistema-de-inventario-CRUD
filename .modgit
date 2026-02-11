@@ -28,3 +28,6 @@
 	path = Proyecto.csproj.user
 	depends = ui
 	depends = base-de-datos
+
+[module "ui/imagenes"]
+	path = img
