@@ -1,0 +1,33 @@
+[module "ui"]
+	path = mainForm.cs
+	path = mainForm.Designer.cs
+	path = mainForm.resx
+	path = confirmaciónEliminación.cs
+	path = confirmaciónEliminación.Designer.cs
+	path = confirmaciónEliminación.resx
+	path = img
+	depends = base-de-datos
+
+[module "ui/formulario-principal"]
+	path = mainForm.cs
+	path = mainForm.Designer.cs
+	path = mainForm.resx
+
+[module "ui/dialogo-eliminar"]
+	path = confirmaciónEliminación.cs
+	path = confirmaciónEliminación.Designer.cs
+	path = confirmaciónEliminación.resx
+
+[module "base-de-datos"]
+	path = base de datos
+
+[module "core"]
+	path = Program.cs
+	path = Proyecto.csproj
+	path = Proyecto.sln
+	path = Proyecto.csproj.user
+	depends = ui
+	depends = base-de-datos
+
+[module "ui/imagenes"]
+	path = img
