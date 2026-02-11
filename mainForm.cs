@@ -457,3 +457,4 @@ namespace Proyecto
         }
     }
 }
+// Editado desde rama aislada - nuevo botón de búsqueda
