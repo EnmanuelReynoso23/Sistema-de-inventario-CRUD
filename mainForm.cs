@@ -459,3 +459,4 @@ namespace Proyecto
 }
 // Editado desde rama aislada - nuevo botón de búsqueda
 // Cambio hecho en main - nueva función de exportar
+// Cambio en el formulario
