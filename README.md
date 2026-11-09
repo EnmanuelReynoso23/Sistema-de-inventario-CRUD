@@ -1,4 +1,4 @@
-# 📦 Sistema de Inventario CRUD - PostgreSQL & C#
+# Sistema de Inventario CRUD - PostgreSQL & C#
 
 <div align="center">
 
@@ -15,11 +15,11 @@
 
 Sistema de gestión de inventario desarrollado con **Windows Forms (.NET 8)** y **PostgreSQL** que permite realizar operaciones CRUD completas sobre productos comerciales.
 
-## 🎯 Descripción del Proyecto
+## Descripción del Proyecto
 
 Aplicación de escritorio que simula un sistema de punto de venta para gestión de inventario, implementando las mejores prácticas en diseño de bases de datos relacionales y desarrollo de interfaces gráficas en C#.
 
-### ✨ Características Principales
+### Características Principales
 
 - **Operaciones CRUD completas**: Crear, leer, actualizar y eliminar productos
 - **Interfaz intuitiva**: Windows Forms con validación de datos en tiempo real
@@ -27,7 +27,7 @@ Aplicación de escritorio que simula un sistema de punto de venta para gestión 
 - **Manejo de errores**: Gestión completa de excepciones y validaciones
 - **Arquitectura escalable**: Separación de capas y buenas prácticas de programación
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 <div align="center">
 
@@ -47,7 +47,7 @@ Aplicación de escritorio que simula un sistema de punto de venta para gestión 
 | ![Npgsql](https://img.shields.io/badge/-Npgsql-336791?style=flat&logo=nuget&logoColor=white) Npgsql | 8.0+ | Driver de conexión PostgreSQL |
 | ![Visual Studio](https://img.shields.io/badge/-Visual%20Studio-5C2D91?style=flat&logo=visual-studio&logoColor=white) Visual Studio | 2022 | IDE de desarrollo |
 
-## 📋 Requisitos del Sistema
+## Requisitos del Sistema
 
 <div align="center">
 
@@ -79,7 +79,7 @@ Aplicación de escritorio que simula un sistema de punto de venta para gestión 
 <PackageReference Include="Npgsql" Version="8.0.0" />
 ```
 
-## 🗃️ Estructura de la Base de Datos
+## Estructura de la Base de Datos
 
 ### Esquema: `inventario`
 
@@ -104,7 +104,7 @@ CREATE TABLE inventario.productos (
 | `stock` | INTEGER | DEFAULT 0 | Cantidad disponible |
 | `fecha_registro` | DATE | DEFAULT TODAY | Fecha de registro automática |
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### 1. Configurar Base de Datos
 
@@ -155,7 +155,7 @@ dotnet restore
 </connectionStrings>
 ```
 
-## 💡 Uso de la Aplicación
+## Uso de la Aplicación
 
 ### Interfaz Principal
 
@@ -173,7 +173,7 @@ La aplicación cuenta con:
 3. **Eliminar Producto**: Remover productos del sistema
 4. **Consultar Productos**: Visualizar inventario completo
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 SistemaInventarioCRUD/
@@ -195,7 +195,7 @@ SistemaInventarioCRUD/
 └── README.md
 ```
 
-## 🔧 Características Técnicas
+## Características Técnicas
 
 ### Validaciones Implementadas
 
@@ -226,7 +226,7 @@ SistemaInventarioCRUD/
 - Validación de tipos de datos
 - Transacciones seguras con rollback
 
-## 📊 Casos de Uso
+## Casos de Uso
 
 ### Escenario Típico: Tienda de Retail
 
@@ -235,7 +235,7 @@ SistemaInventarioCRUD/
 3. **Control de stock**: Seguimiento de inventario disponible
 4. **Consultas rápidas**: Búsqueda y filtrado de productos
 
-## 🧪 Testing y Validación
+## Testing y Validación
 
 ### Datos de Prueba
 
@@ -247,41 +247,41 @@ INSERT INTO inventario.productos (nombre, precio, stock) VALUES
 ('Teclado Mecánico', 89.99, 25);
 ```
 
-## 📈 Objetivos de Aprendizaje Alcanzados
+## Objetivos de Aprendizaje Alcanzados
 
 ### Competencias Técnicas
 
 <div align="center">
 
-![Database](https://img.shields.io/badge/✅%20Diseño%20BD-Relacionales-336791?style=flat&logo=postgresql&logoColor=white)
-![CRUD](https://img.shields.io/badge/✅%20Operaciones-CRUD-239120?style=flat&logo=c-sharp&logoColor=white)
-![UI](https://img.shields.io/badge/✅%20Interfaces-Windows%20Forms-0078D6?style=flat&logo=windows&logoColor=white)
-![Integration](https://img.shields.io/badge/✅%20Integración-Npgsql-FF6B6B?style=flat&logo=nuget&logoColor=white)
-![Validation](https://img.shields.io/badge/✅%20Validación-Datos-28A745?style=flat&logo=check-circle&logoColor=white)
+![Database](https://img.shields.io/badge/%20Diseño%20BD-Relacionales-336791?style=flat&logo=postgresql&logoColor=white)
+![CRUD](https://img.shields.io/badge/%20Operaciones-CRUD-239120?style=flat&logo=c-sharp&logoColor=white)
+![UI](https://img.shields.io/badge/%20Interfaces-Windows%20Forms-0078D6?style=flat&logo=windows&logoColor=white)
+![Integration](https://img.shields.io/badge/%20Integración-Npgsql-FF6B6B?style=flat&logo=nuget&logoColor=white)
+![Validation](https://img.shields.io/badge/%20Validación-Datos-28A745?style=flat&logo=check-circle&logoColor=white)
 
 </div>
 
-- ✅ Diseño e implementación de BD relacionales
-- ✅ Operaciones CRUD con PostgreSQL y C#
-- ✅ Desarrollo de interfaces Windows Forms
-- ✅ Integración con Npgsql y manejo de conexiones
-- ✅ Validación de datos y manejo de excepciones
+- Diseño e implementación de BD relacionales
+- Operaciones CRUD con PostgreSQL y C#
+- Desarrollo de interfaces Windows Forms
+- Integración con Npgsql y manejo de conexiones
+- Validación de datos y manejo de excepciones
 
 ### Competencias Transversales
 
 <div align="center">
 
-![Problem Solving](https://img.shields.io/badge/✅%20Resolución-Problemas-6F42C1?style=flat&logo=puzzle-piece&logoColor=white)
-![Documentation](https://img.shields.io/badge/✅%20Documentación-Técnica-17A2B8?style=flat&logo=file-text&logoColor=white)
-![Autonomous](https://img.shields.io/badge/✅%20Trabajo-Autónomo-FD7E14?style=flat&logo=user&logoColor=white)
-![Best Practices](https://img.shields.io/badge/✅%20Buenas-Prácticas-20C997?style=flat&logo=star&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/%20Resolución-Problemas-6F42C1?style=flat&logo=puzzle-piece&logoColor=white)
+![Documentation](https://img.shields.io/badge/%20Documentación-Técnica-17A2B8?style=flat&logo=file-text&logoColor=white)
+![Autonomous](https://img.shields.io/badge/%20Trabajo-Autónomo-FD7E14?style=flat&logo=user&logoColor=white)
+![Best Practices](https://img.shields.io/badge/%20Buenas-Prácticas-20C997?style=flat&logo=star&logoColor=white)
 
 </div>
 
-- ✅ Resolución de problemas técnicos
-- ✅ Documentación técnica clara
-- ✅ Trabajo autónomo y planificación
-- ✅ Aplicación de buenas prácticas de desarrollo
+- Resolución de problemas técnicos
+- Documentación técnica clara
+- Trabajo autónomo y planificación
+- Aplicación de buenas prácticas de desarrollo
 
 
 
